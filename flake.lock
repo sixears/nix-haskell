@@ -389,6 +389,23 @@
         "type": "github"
       }
     },
+    "hix-src-0-0-1-0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1686806293,
+        "narHash": "sha256-UC4Nys/JukPVnXHdiU6S0WckDZKOlpYQThHCFB3sIIo=",
+        "owner": "sixears",
+        "repo": "hix",
+        "rev": "3a471a7380a87ef590c3d6627ab89a4c9fb34a4b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sixears",
+        "ref": "r0.0.1.0",
+        "repo": "hix",
+        "type": "github"
+      }
+    },
     "hostsdb-src-0-1-1-4": {
       "flake": false,
       "locked": {
@@ -430,6 +447,7 @@
         "fstat-src-1-0-2-26": "fstat-src-1-0-2-26",
         "handbrake-src-1-0-3-0": "handbrake-src-1-0-3-0",
         "has-callstack-src-1-0-1-19": "has-callstack-src-1-0-1-19",
+        "hix-src-0-0-1-0": "hix-src-0-0-1-0",
         "hostsdb-src-0-1-1-4": "hostsdb-src-0-1-1-4",
         "htinydns-src-0-1-1-3": "htinydns-src-0-1-1-3",
         "index-src-1-0-1-26": "index-src-1-0-1-26",
@@ -443,7 +461,7 @@
         "mockio-log-src-0-1-2-0": "mockio-log-src-0-1-2-0",
         "mockio-plus-src-0-3-12-1": "mockio-plus-src-0-3-12-1",
         "mockio-src-0-0-4-4": "mockio-src-0-0-4-4",
-        "monaderror-io-src-1-2-5-20": "monaderror-io-src-1-2-5-20",
+        "monaderror-io-src-1-2-6-0": "monaderror-io-src-1-2-6-0",
         "monadio-plus-src-2-5-1-51": "monadio-plus-src-2-5-1-51",
         "more-unicode-src-0-0-17-12": "more-unicode-src-0-0-17-12",
         "natural-src-0-0-1-14": "natural-src-0-0-1-14",
@@ -460,24 +478,24 @@
         "rename-src-0-0-1-0": "rename-src-0-0-1-0",
         "single-src-0-0-1-0": "single-src-0-0-1-0",
         "srt-adjust-src-1-0-0-7": "srt-adjust-src-1-0-0-7",
-        "stdmain-src-1-5-13-0": "stdmain-src-1-5-13-0",
+        "stdmain-src-1-5-14-0": "stdmain-src-1-5-14-0",
         "tasty-plus-src-1-5-2-24": "tasty-plus-src-1-5-2-24",
-        "textual-plus-src-1-1-2-0": "textual-plus-src-1-1-2-0",
+        "textual-plus-src-1-1-3-0": "textual-plus-src-1-1-3-0",
         "tfmt-src-0-2-7-25": "tfmt-src-0-2-7-25",
         "trifecta-plus-src-0-0-1-0": "trifecta-plus-src-0-0-1-0",
         "yaml-plus-src-1-0-1-1": "yaml-plus-src-1-0-1-1"
       },
       "locked": {
-        "lastModified": 1686209183,
-        "narHash": "sha256-z7RhlkXJLrZKfRlxsINnqVkQ941V7YS+dGMPrCHtBVI=",
+        "lastModified": 1686812196,
+        "narHash": "sha256-ZPJ67nDrD8fcbmH4C6tALPZImyraoCVHMKbOG8qmilU=",
         "owner": "sixears",
         "repo": "hpkgs1",
-        "rev": "eb4eded3c3b674b4a2b716b2dc389cb005f293be",
+        "rev": "0b34abc30e3f225ef6963049c7f3059f9b428554",
         "type": "github"
       },
       "original": {
         "owner": "sixears",
-        "ref": "r0.0.16.0",
+        "ref": "r0.0.17.0",
         "repo": "hpkgs1",
         "type": "github"
       }
@@ -686,19 +704,19 @@
         "type": "github"
       }
     },
-    "monaderror-io-src-1-2-5-20": {
+    "monaderror-io-src-1-2-6-0": {
       "flake": false,
       "locked": {
-        "lastModified": 1668928662,
-        "narHash": "sha256-EUyGr9sGKGVCxFYuHkUlPWY8u6H5qp7EUiwyvs3p+oQ=",
+        "lastModified": 1686471846,
+        "narHash": "sha256-XQLZGxtsIAsze63IyScyMgVw018ZStT5WdUDkJJ19Eo=",
         "owner": "sixears",
         "repo": "monaderror-io",
-        "rev": "b2dafa064fbe586e66d800e721cf222bc64d7edf",
+        "rev": "c26293d9ad61d28049618451be4d413df16d9d1e",
         "type": "github"
       },
       "original": {
         "owner": "sixears",
-        "ref": "r1.2.5.20",
+        "ref": "r1.2.6.0",
         "repo": "monaderror-io",
         "type": "github"
       }
@@ -997,19 +1015,19 @@
         "type": "github"
       }
     },
-    "stdmain-src-1-5-13-0": {
+    "stdmain-src-1-5-14-0": {
       "flake": false,
       "locked": {
-        "lastModified": 1655361637,
-        "narHash": "sha256-B45sA/owJB1B9BNwGn2kIIG28cHir+7DEqx6HEwarok=",
+        "lastModified": 1686376391,
+        "narHash": "sha256-Nic8Ij/PSkQFV+zCh9oluISENInbCU6OZbCLncXkQLs=",
         "owner": "sixears",
         "repo": "stdmain",
-        "rev": "10b904c83e9f7dd0739fac1650b50222b9884933",
+        "rev": "ddad6e53d5ef60c90dbe5462f0124f7d4c36b6b8",
         "type": "github"
       },
       "original": {
         "owner": "sixears",
-        "ref": "r1.5.13.0",
+        "ref": "r1.5.14.0",
         "repo": "stdmain",
         "type": "github"
       }
@@ -1031,19 +1049,19 @@
         "type": "github"
       }
     },
-    "textual-plus-src-1-1-2-0": {
+    "textual-plus-src-1-1-3-0": {
       "flake": false,
       "locked": {
-        "lastModified": 1685598792,
-        "narHash": "sha256-mC+GMHrKUjF8HxyJnJaPrAYNtkgm3vPrUWL8BmetdNg=",
+        "lastModified": 1686639833,
+        "narHash": "sha256-EcF0XxuK35DhPrFWUXF33b7HRNgFS5YiVrYX5E4mftY=",
         "owner": "sixears",
         "repo": "textual-plus",
-        "rev": "c41db4b69a7ceab21c9201066a4cb3a8a44ef6de",
+        "rev": "631c038c726e09b12b63d35c189fff1d7bb28faf",
         "type": "github"
       },
       "original": {
         "owner": "sixears",
-        "ref": "r1.1.2.0",
+        "ref": "r1.1.3.0",
         "repo": "textual-plus",
         "type": "github"
       }
