@@ -33,7 +33,8 @@
               builtins.attrValues hpkgs ++
               (with haskellPackages;
                      [
-                       aeson ansi-wl-pprint base-unicode-symbols xmonad-contrib
+                       aeson ansi-wl-pprint base-unicode-symbols classy-prelude
+                       hgettext xmonad-contrib
 
                        # required for nsa/stories/ws.com/parser.hs
                        tagsoup
