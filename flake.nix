@@ -5,7 +5,7 @@
     # for stylish-haskell
     nixpkgs-old.url = github:nixos/nixpkgs/be44bf67; # nixos-22.05 2022-10-15
 
-    nixpkgs.url     = github:NixOS/nixpkgs/354184a; # master 2023-12-13
+    nixpkgs.url     = github:NixOS/nixpkgs/938aa157; # nixos-24.05 2024-06-20
     flake-utils.url = github:numtide/flake-utils/c0e246b9;
     hpkgs1          = {
       url    = github:sixears/hpkgs1/r0.0.24.0;
@@ -34,7 +34,8 @@
               (with haskellPackages;
                      [
                        aeson ansi-wl-pprint base-unicode-symbols classy-prelude
-                       hgettext xmonad-contrib
+                       hgettext HTTP neat-interpolation safe-exceptions
+                       sqlite-simple uniplate word-wrap xmonad-contrib
 
                        # required for nsa/stories/ws.com/parser.hs
                        tagsoup
