@@ -5,10 +5,10 @@
     # for stylish-haskell
     nixpkgs-old.url = github:nixos/nixpkgs/be44bf67; # nixos-22.05 2022-10-15
 
-    nixpkgs.url     = github:NixOS/nixpkgs/938aa157; # nixos-24.05 2024-06-20
+    nixpkgs.url     = github:NixOS/nixpkgs/d9d87c51; # nixos-24.11 2024-12-11
     flake-utils.url = github:numtide/flake-utils/c0e246b9;
     hpkgs1          = {
-      url    = github:sixears/hpkgs1/r0.0.27.0;
+      url    = github:sixears/hpkgs1/r0.0.50.0;
       # url    = path:/home/martyn/src/hpkgs1;
       inputs = { nixpkgs.follows = "nixpkgs"; };
     };
@@ -25,7 +25,8 @@
         rec {
           packages =
             flake-utils.lib.flattenTree (with pkgs; {
-            inherit (hlib.hpkgs) cabal-install haskell-language-server;
+            inherit (hlib.hpkgs) cabal-install;
+            inherit (hlib.hpkgs) haskell-language-server;
             stylish-haskell =
               ## hlib.hpkgs.stylish-haskell_0_14_4_0;
               nixpkgs-old.legacyPackages.${system}.stylish-haskell;
@@ -34,8 +35,9 @@
               (with haskellPackages;
                      [
                        aeson ansi-wl-pprint base-unicode-symbols classy-prelude
-                       hgettext HTTP neat-interpolation safe-exceptions
-                       sqlite-simple uniplate word-wrap xmonad-contrib
+                       hgettext hostname HTTP neat-interpolation network-info
+                       safe-exceptions sqlite-simple uniplate word-wrap
+                       xmonad-contrib
 
                        # required for nsa/stories/ws.com/parser.hs
                        tagsoup
